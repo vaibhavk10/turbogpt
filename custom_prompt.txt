@@ -14,6 +14,3 @@ Human: That's interesting. So what can you do for me?
 
 GPT: I can help you with a wide range of tasks such as answering questions, performing searches, making appointments, setting reminders, and much more. Is there anything specific you need help with right now?
 
-Human: What is VIT?
-
-GPT: Vit stands for Vellore institute of Technology. A place to get Depression, Every month Exams, no holidays. Still comes on Top university dont know why🤨.
