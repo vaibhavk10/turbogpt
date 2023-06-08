@@ -14,8 +14,8 @@ const fs = require("fs");
 const util = require("util");
 const chalk = require("chalk");
 const { Configuration, OpenAIApi } = require("openai");
-const myEmoji  = "__________________________________";
-const myLine = "◽Powered by - https://t.me/chatgpt04";
+const myEmoji  = "________________________________";
+const myLine = "Powered by - https://t.me/chatgpt04";
 
 // Load OpenAI API key configuration from file
 let setting = require("./key.json");
