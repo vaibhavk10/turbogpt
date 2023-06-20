@@ -14,8 +14,6 @@ const fs = require("fs");
 const util = require("util");
 const chalk = require("chalk");
 const { Configuration, OpenAIApi } = require("openai");
-const myEmoji  = "________________________________";
-const myLine = "Powered by - https://t.me/chatgpt04";
 
 // Load OpenAI API key configuration from file
 let setting = require("./key.json");
@@ -110,7 +108,7 @@ module.exports = sansekai = async (client, m, chatUpdate, store) => {
       updateChatHistory(m.sender, { role: "assistant", content: response.data.choices[0].message.content });
 
       // Reply to the incoming message with OpenAI-generated response
-      m.reply(`${response.data.choices[0].message.content + "\n\n" + myEmoji + "\n" + myLine + "\n" + myEmoji}`);
+      m.reply(`${response.data.choices[0].message.content}`);
     }
   } catch (err) {
     // If an error occurs, reply to the incoming message with the error message
